@@ -3,6 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Collection - Tammy's Fashion</title>
+</head>
+<body>
+    <header>
+        <h1>Tammy's Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about/index.html">About</a></li>
+                <li><a href="../shop/index.html">Shop</a></li>
+                <li><a href="index.html">Collection</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+                <li><a href="../testimonials/index.html">Testimonials</a></li>
+                <li><a href="../faq/index.html">FAQ</a></li>
+                <li><a href="../privacy/index.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Collection</h2>
+            <p>Explore our latest collection of stylish and affordable clothing.</p>
+            <img src="https://via.placeholder.com/600x400?text=Collection+Image" alt="Collection Image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tammy's Fashion. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Tammy's Fashion</title>
 </head>
