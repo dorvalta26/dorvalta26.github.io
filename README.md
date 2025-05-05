@@ -1,100 +1,125 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tammy's Fashion</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0; /* Light background for contrast */
-    color: #333; /* Dark text for readability */
-}
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0; /* Light background for contrast */
+            color: #333; /* Dark text for readability */
+        }
 
-/* Header styles */
-header {
-    background: linear-gradient(to right, #6a5acd, #8a2be2); /* Blue to purple gradient */
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
+        /* Header styles */
+        header {
+            background: linear-gradient(to right, #6a5acd, #8a2be2); /* Blue to purple gradient */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
 
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
 
-/* Main content styles */
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    background: white; /* White background for content */
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+        /* Main content styles */
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white; /* White background for content */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
 
-h2 {
-    color: #6a5acd; /* Blue color for subheadings */
-    margin-bottom: 15px;
-}
+        h2 {
+            color: #6a5acd; /* Blue color for subheadings */
+            margin-bottom: 15px;
+        }
 
-section {
-    margin-bottom: 20px;
-}
+        section {
+            margin-bottom: 20px;
+        }
 
-/* Image styles */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
+        /* Image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
 
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #6a5acd; /* Blue background for footer */
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #6a5acd; /* Blue background for footer */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tammy's Fashion</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about/index.html">About</a></li>
+                <li><a href="shop/index.html">Shop</a></li>
+                <li><a href="collection/index.html">Collection</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="contact/index.html">Contact</a></li>
+                <li><a href="testimonials/index.html">Testimonials</a></li>
+                <li><a href="faq/index.html">FAQ</a></li>
+                <li><a href="privacy/index.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Tammy's Fashion</h2>
+            <p>Our mission is to provide clothes that include all and make it affordable.</p>
+            <img src="https://via.placeholder.com/600x400?text=Fashion+Image" alt="Fashion Image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tammy's Fashion. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
-/* Button styles */
-button {
-    background-color: #8a2be2; /* Purple button */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-button:hover {
-    background-color: #6a5acd; /* Change to blue on hover */
 }
 
 <!DOCTYPE html>
